@@ -54,7 +54,7 @@ const contacts: Contacts = {
         email: "info@bottomaquinarias.com",
     },
     Ventas: {
-        phone: ["3406-430332", "3406-641249"],
+        phone: ["3406-430332", "3406-641249", "3406-420319"],
         email: "ventas@bottomaquinarias.com",
     },
     Repuestos: {
