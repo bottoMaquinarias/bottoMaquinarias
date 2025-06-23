@@ -41,7 +41,7 @@ export default function Header() {
                         }}
                         transition={{ duration: 0.5 }}
                     >
-                        <Image src="/logo.png" alt="Logo" width={250} height={250} />
+                        <Image src="/logo_2_1.png" alt="Logo" width={250} height={250} />
                     </motion.div>
                 </Link>
                 <div className="hidden md:flex space-x-4">

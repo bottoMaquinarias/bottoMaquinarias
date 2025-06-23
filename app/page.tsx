@@ -72,11 +72,11 @@ export default function Home() {
             transition={{ duration: 0.5 }}
           >
           <Image
-            src="/logo.png"
+            src="/logo_2_1.png"
             alt="Logo"
             width={450}
             height={450}
-            className="max-w-full"
+            className="max-w-full -mt-4"
             priority
           />
           </motion.div>
