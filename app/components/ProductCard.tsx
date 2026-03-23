@@ -28,7 +28,7 @@ export default function ProductCard({
     return (
         <Card className="h-full flex flex-col">
             <CardHeader>
-                <CardTitle>{name}</CardTitle>
+                <CardTitle className="font-heading text-dark-gray">{name}</CardTitle>
             </CardHeader>
             <CardContent className="flex-grow">
                 <Image 
@@ -38,7 +38,7 @@ export default function ProductCard({
                     height={300} 
                     className="rounded-md object-cover w-full h-48" 
                 />
-                <p className="mt-4 text-center">{description}</p>
+                <p className="mt-4 text-center text-foreground">{description}</p>
                 {specs.length > 0 && (
                     <ul className="mt-2 list-disc list-inside">
                         {specs.map((spec, index) => (

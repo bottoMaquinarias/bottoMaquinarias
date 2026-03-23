@@ -20,9 +20,9 @@ export default function Productos() {
                       className="object-cover"
                       priority
                   />
-                  <div className="absolute inset-0 bg-black opacity-50"></div> {/* Overlay */}
+                  <div className="absolute inset-0 bg-dark-gray opacity-50"></div> {/* Overlay */}
                   <div className="relative z-10 max-w-4xl mx-auto px-4">
-                      <h1 className="text-4xl md:text-6xl font-bold mb-4">Botto Maquinarias</h1>
+                      <h1 className="text-4xl md:text-6xl font-heading mb-4">Botto Maquinarias</h1>
                       <p className="text-xl md:text-2xl mb-8">Concesionario de maquinaria agricola</p>
                       <p className="text-xl md:text-2xl mb-8">Crucianelli | Stara</p>
                       <Button asChild size="lg">
@@ -32,9 +32,9 @@ export default function Productos() {
                 </section>
 
                 {/* CRUCIANELLI */}
-                  <section id="crucianelli" className="py-16 bg-gray-100">
+                  <section id="crucianelli" className="py-16 bg-light-bg">
                     <div className="container mx-auto px-4">
-                        <h2 className="text-3xl font-bold text-center mb-12">Crucianelli</h2>
+                        <h2 className="text-3xl font-heading text-center mb-12 text-dark-gray">Crucianelli</h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                             <ProductCard 
                                 name="Drillor"
@@ -80,9 +80,9 @@ export default function Productos() {
                 </section>
 
                 {/* STARA */}
-                <section id="stara" className="py-16 bg-gray-100">
+                <section id="stara" className="py-16 bg-light-bg">
                   <div className="container mx-auto px-4">
-                    <h2 className="text-3xl font-bold text-center mb-12">Stara</h2>
+                    <h2 className="text-3xl font-heading text-center mb-12 text-dark-gray">Stara</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                       <ProductCard
                           name="Hercules 6.0"
@@ -137,7 +137,7 @@ export default function Productos() {
                 {/* USED MACHINES */}
                 <section className="py-16 bg-primary text-primary-foreground">
                   <div className="container mx-auto px-4 text-center">
-                    <h2 className="text-3xl font-bold mb-4">¿Quieres conocer nuestras máquinas usadas?</h2>
+                    <h2 className="text-3xl font-heading mb-4">¿Quieres conocer nuestras máquinas usadas?</h2>
                     <p className="text-xl mb-8">Visita nuestros sitios de venta</p>
                     <div className="flex justify-center space-x-4">
                       <Button asChild size="lg" variant="secondary">
@@ -155,9 +155,9 @@ export default function Productos() {
                 </section>
 
                 {/* Technology */}
-                <section id="leaf" className="py-16 bg-gray-100">
+                <section id="leaf" className="py-16 bg-light-bg">
                   <div className="container mx-auto px-4">
-                    <h2 className="text-3xl font-bold text-center mb-12">Tecnología de Siembra</h2>
+                    <h2 className="text-3xl font-heading text-center mb-12 text-dark-gray">Tecnología de Siembra</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                       <ProductCard
                         name="Monitor Orizon" 

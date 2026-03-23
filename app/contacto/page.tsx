@@ -125,7 +125,7 @@ export default function ContactPage() {
                 <div className="absolute inset-0 bg-black opacity-50"></div> {/* Overlay */}
                 <div className="absolute inset-0 flex flex-col justify-center items-center text-white p-8">
                     <motion.h1 
-                        className="text-4xl md:text-5xl font-bold mb-4 text-center"
+                        className="text-4xl md:text-5xl font-heading mb-4 text-center"
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 }}
