@@ -206,7 +206,7 @@ export default function Home() {
                     height={300}
                   />
                 </motion.div>
-                <div className="absolute inset-0 bg-dark-gray bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                <div className="absolute inset-0 bg-[rgba(64,53,49,0.30)] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <Link href={`${producto.link}`}>
                     <button className="px-4 py-2 font-heading rounded bg-white text-dark-gray hover:bg-light-bg transition">
                       Ver Más
