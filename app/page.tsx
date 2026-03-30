@@ -72,12 +72,11 @@ export default function Home() {
             transition={{ duration: 0.5 }}
           >
           <Image
-            // src="/logo-nuevo-removebg-preview.png"
-            src="/logo_2_1.png"
+            src="/logo-final-3.png"
             alt="Logo"
             width={450}
             height={450}
-            className="max-w-full -mt-4"
+            className="max-w-full -mt-6"
             priority
           />
           </motion.div>

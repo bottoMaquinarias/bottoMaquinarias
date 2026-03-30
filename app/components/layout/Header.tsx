@@ -14,6 +14,7 @@ export default function Header() {
     const pathname = usePathname()
 
     const useDarkNavText = pathname === '/contacto' && !isScrolled
+    const useSolidNavBg = isScrolled || isOpen
 
     const toggleMenu = () => {
         setIsOpen(!isOpen)
@@ -33,7 +34,7 @@ export default function Header() {
     }, [])
 
     return (
-        <nav className={`fixed w-full z-50 transition-all duration-300 box-border ${isScrolled ? 'bg-dark-gray' : 'bg-transparent'}`}>
+        <nav className={`fixed w-full z-50 transition-all duration-300 box-border ${useSolidNavBg ? 'bg-dark-gray' : 'bg-transparent'}`}>
             <div className="container mx-auto flex justify-between items-center p-4">
                 <Link href="/" className={`text-2xl font-heading ${useDarkNavText ? 'text-dark-gray' : 'text-white'}`}>
                     {/* Logo animado */}
@@ -45,8 +46,7 @@ export default function Header() {
                         }}
                         transition={{ duration: 0.5 }}
                     >
-                        {/* <Image src="/logo-nuevo-removebg-preview.png" alt="Logo Botto Maquinarias" width={250} height={250} className="object-contain" /> */}
-                        <Image src="/logo_2_1.png" alt="Logo Botto Maquinarias" width={250} height={250} className="object-contain" />
+                        <Image src="/logo-final-2.png" alt="Logo Botto Maquinarias" width={250} height={250} className="object-contain" />
                     </motion.div>
                 </Link>
                 <div className="hidden md:flex space-x-4">

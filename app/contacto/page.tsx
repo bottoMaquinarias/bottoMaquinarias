@@ -114,7 +114,7 @@ export default function ContactPage() {
     }
 
     return (
-        <div className="min-h-screen flex flex-col md:flex-row">
+        <div className="min-h-screen pt-20 md:pt-0 flex flex-col md:flex-row">
             <div className="md:w-1/2 relative">
                 <Image
                     src="/nosotros-hero-mobile.jpg"
@@ -142,7 +142,7 @@ export default function ContactPage() {
                     </motion.p>
                 </div>
             </div>
-            <div className="md:w-1/2 bg-white p-8 md:p-12 flex flex-col justify-center z-10">
+            <div className="md:w-1/2 bg-white p-8 md:p-16 flex flex-col justify-center z-10">
                 <Form {...form}>
                     <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
                         <FormField
