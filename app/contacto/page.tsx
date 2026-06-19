@@ -58,11 +58,11 @@ const contacts: Contacts = {
         email: "ventas@bottomaquinarias.com",
     },
     Repuestos: {
-        phone: ["3406-427559"],
+        phone: ["3406 420319"],
         email: "repuestos@bottomaquinarias.com",
     },
     Posventa: {
-        phone: ["3406-401597"],
+        phone: ["3406 427559"],
         email: "posventa@bottomaquinarias.com",
     },
 };

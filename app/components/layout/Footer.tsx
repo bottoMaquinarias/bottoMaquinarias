@@ -16,7 +16,6 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto px-4 py-10 md:py-16">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div className="space-y-4">
-                        {/* <h3 className="text-lg font-heading text-dark-gray">Victor H. Botto</h3> */}
                         <h3 className="text-lg font-heading text-dark-gray">Botto Maquinarias</h3>
                         <p className="text-sm text-foreground">
                             Somos pioneros en la industria agrícola. Contruimos un futuro sostenible y sustenable.
